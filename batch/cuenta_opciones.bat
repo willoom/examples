@@ -7,7 +7,7 @@ REM Informa de las líneas que tiene el fichero.
 REM Informa si tiene diez o más líneas y termina el script.
 
 REM Fecha: 25 de marzo de 2024 
-REM - Willoom
+REM Autor: willoom
 
 REM establecemos la variable que contendrá el nombre del fichero.
 set fichero=%1
