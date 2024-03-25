@@ -6,7 +6,7 @@ REM Descripción:
 REM             Pequeña librería para modificar colores en librojuego de MS-DOS.
 REM             Se harán diversas llamadas a subrutinas con parámetros para probarlos.
 
-REM Autor: Willoom
+REM Autor: willoom
 REM Fecha: 10/03/2024
 
 
