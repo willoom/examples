@@ -68,7 +68,7 @@ char* string_de_capicua(int radio_max, int radio) {
 	}
 
 	// clausuramos la string
-	capicua_string[capicua_size] = '\0';
+	capicua_string[capicua_size - 1] = '\0';
 	
 	return capicua_string;
 }
