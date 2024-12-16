@@ -93,6 +93,7 @@ int main(int argc, char *argv[]) {
 	printf("%s \n", c4);
 	printf("%s \n", c5);
 
+	// Devolvemos el espacio reservado en pila cuando deja de ser necesario
 	free(c1);
 	free(c2);
 	free(c3);
