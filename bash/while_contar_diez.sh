@@ -16,6 +16,9 @@ while [ $vuelta -le 10 ]; do
   # acumulamos el valor actual de iteración
   contador=$(($contador + $vuelta))
 
+  # mostramos el valor parcial calculado del acumulador
+  echo "En la iteración $vuelta llevamos acumulado $contador."
+
   # incrementamos el iterador para garantizart que salimos del bucle en diez iteraciones.
   vuelta=$(($vuelta + 1))
 done
