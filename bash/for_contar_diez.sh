@@ -4,7 +4,7 @@
 # 18 de diciembre de 2024
 
 # Ejemplo con for
-# Contar del 1 al 10 con un while
+# Contar del 1 al 10 con un for
 
 # En esta variable se irá acumulando la suma
 contador=0
@@ -14,7 +14,6 @@ contador=0
 for i in `seq 10`; do
   # acumulamos el valor actual de iteración
   contador=$(($contador + $i))
-
 
   # mostramos el valor parcial calculado del acumulador
   echo "En la iteración $i llevamos acumulado $contador."
