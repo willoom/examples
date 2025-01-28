@@ -23,7 +23,7 @@ C = float(input('Introduzca el capital inicial: '))
 i = float(input('Introduzca el interés en tanto por ciento: '))
 n = int(input('Introduzca el número de años de aplicación del interés: '))
 if i > 0:
-  # Aquí el intgerés en tanto pot uno es mayor que cero, positivo
+  # Aquí el interés en tanto por uno es mayor que cero, positivo
   print ("Para un capital inicial de {0}€, un interés del {1}% durante {2} años,".format(C,i,n))
   print ("se obtiene un capital final de {0:.2f}€".format(C * (1 + i/100)**n))
 else:
