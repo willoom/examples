@@ -22,7 +22,7 @@ def factorial(num):
         # En el caso base, el más sencillo num es 1 y devolvemos 1
         return 1
     else:
-        # En el caso inductivo, el factorial es num por el factorial de num menos uno
+        # En el caso recursivo, el factorial es num por el factorial de num menos uno
         return num*factorial(num-1)
         
 def prueba_factorial(num):
