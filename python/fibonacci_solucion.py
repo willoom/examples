@@ -18,13 +18,13 @@ Donde XXX es el valor calculado por vuestra función.
 Usa recursividad.
 """
 
-# recibe un número entero mayor de cero y devuelve su factorial
+# recibe un número entero mayor de cero y devuelve término Fibonacci
 def fibonacci(num):
     if num == 1 or num == 2:
         # En el caso base, el más sencillo num es 1 y devolvemos 1
         return 1
     else:
-        # En el caso inductivo, el factorial es num por el factorial de num menos uno
+        # En el caso inductivo, el fibonacci es la suma de los dos Fibonacci anteriores.
         return fibonacci(num-1) + fibonacci(num-2)
         
 def prueba_fibonacci(num):
