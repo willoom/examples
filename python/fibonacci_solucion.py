@@ -31,7 +31,7 @@ def prueba_fibonacci(num):
     # Aseguramos que hacemos una llamada correcta a factorial
     if num < 1:
         # Éste seria un caso con argumento no válido.
-        print("No podemos calcular el tçermino {0} de Fibonacci.".format(num))
+        print("No podemos calcular el término {0} de Fibonacci.".format(num))
     else:
         # El argumento está en el rango permitido
         print("El término {0} de Fibonacci es {1}.".format(num, fibonacci(num)))
