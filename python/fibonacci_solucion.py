@@ -11,7 +11,7 @@ Imprime por pantalla
 
 El término 4 de Fibonacci es 3.
 El término 7 de Fibonacci es XXX.
-El término 50 de Fibonacci es XXX.
+El término 40 de Fibonacci es XXX.
 
 Donde XXX es el valor calculado por vuestra función.
 
@@ -39,4 +39,3 @@ def prueba_fibonacci(num):
 prueba_fibonacci(4)
 prueba_fibonacci(7)
 prueba_fibonacci(40)
-prueba_fibonacci(45)
