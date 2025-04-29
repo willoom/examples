@@ -9,8 +9,11 @@ try:
 
   # Realizamos operación de lectura/escritura
   for línea in fichero:
+
+    # Si hay un '/n' al final de la línea, lo eliminamos
     if línea[-1] == '\n':
       línea = línea[:-1]
+      
     print(línea)
     
   # Cerramos fichero
