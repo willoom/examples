@@ -1,4 +1,6 @@
 # Ejemplo de lectura de fichero
+# del libro Introducción a la programacióin con python 3
+# de Andrés Marzal et al.
 
 # Aseguramos que el fichero existe y tenemos acceso
 try:
@@ -7,6 +9,8 @@ try:
 
   # Realizamos operación de lectura/escritura
   for línea in fichero:
+    if línea[-1] == '\n':
+      línea = línea[:-1]
     print(línea)
     
   # Cerramos fichero
