@@ -6,7 +6,7 @@ de Andrés Marzal et al.
 DATE: 05 May 2025
 
 WHY: 
-El libro del curso no hace referencia a la sistaxis de with, que aunque lleva algún tiempo 
+El libro del curso no hace referencia a la sintaxis de with, que aunque lleva algún tiempo 
 en python ha ido variando su semántica en distintas versiones.
 Aquí reescribo el ejemplo homónimo para ver cómo quedaría con la sentencia y doy una 
 pequeña referencia a la documentación oficial, que explica en detalle qué implica el uso
