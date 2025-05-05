@@ -29,7 +29,7 @@ try:
       
       print(línea)
     
-    # Cuando finaliza el bucle with, se llama al métido exit del objeto fichero,
+    # Cuando finaliza el bucle with, se llama al método exit del objeto fichero,
     # que es de clase File y se cierra el archivo, que no es necesario cerrar explícitamente.
   
 except IOError:
