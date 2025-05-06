@@ -27,7 +27,7 @@ archivo_salida = input('Archivo con mensaje cifrado:')
 
 ORD_A = ord('a')
 MAX_DESP = ord('z') - ORD_A
-NUM_VOCALES = MAX_DESP + 1
+NUM_MINUSCULAS = MAX_DESP + 1
 
 
 desplazamiento_césar = -1
@@ -44,8 +44,8 @@ while 0 > desplazamiento_césar or desplazamiento_césar > MAX_DESP:
 
 # Ahora crearemos un diccionario con claves las minúsculas y valor su equivalente codificado.
 traductor = dict()
-for i in range(NUM_VOCALES):
-    traductor[chr(ORD_A+i)] = chr(ORD_A + ((i + desplazamiento_césar) % NUM_VOCALES)) 
+for i in range(NUM_MINUSCULAS):
+    traductor[chr(ORD_A+i)] = chr(ORD_A + ((i + desplazamiento_césar) % NUM_MINUSCULAS)) 
     
 # No vamos a cambiar el diccionario, por tanto sus claves tampoco variarán.
 KEYS = traductor.keys()       
