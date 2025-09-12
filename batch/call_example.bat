@@ -1,4 +1,11 @@
 @echo off
+
+REM Este script hace llamadas a subrutina 
+REM con paso de parámetros.
+
+REM Fecha: 12 de septiembre de 2024 
+REM - Willoom
+
 call :MAIN
 goto :EOF
 
@@ -11,7 +18,6 @@ goto :EOF
 set /A res=%1 - %2
 echo %res%
 goto :EOF
-
 
 :MAIN
 set /P arg=Escribe dos numeros separados por un espacio
