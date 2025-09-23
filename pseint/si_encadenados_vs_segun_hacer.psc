@@ -1,5 +1,7 @@
 // Fecha: 23 de septiembre de 2025
-// Autor: Willoom
+// Autor: Willoom 
+// Descripci√≥n:
+// 		Razonamos el uso de seg√∫n frente a varios si encadenados.
 
 Algoritmo si_encadenados_vs_segun_hacer
 	edad_jordi <- 6
@@ -15,14 +17,15 @@ Algoritmo si_encadenados_vs_segun_hacer
 		Escribir 'Debe ayudar a poner la mesa'
 	FinSi
 	
-	// ... la estructura segun- hacer es la m·s adecuada en caso de que estÈ 
-	// disponible en el lenguaje de programaciÛn.
-	Seg˙n edad_jordi Hacer
+	// ... la estructura segun- hacer es la m√°s adecuada en caso de que est√© 
+	// disponible en el lenguaje de programaci√≥n.
+	Seg√∫n edad_jordi Hacer
 		5:
 			Escribir 'Debe ir de la mano por la calle'
 		6:
 			Escribir 'Tiene que saber vestirse solo'
 		7:
 			Escribir 'Debe ayudar a poner la mesa'
-	FinSeg˙n
+	FinSeg√∫n
 FinAlgoritmo
+
