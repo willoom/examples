@@ -6,7 +6,7 @@
 
 read -p "Introduce un nombre: " nombre
 
-case $nombre" in
+case "$nombre" in
   "Juan")
     echo "¡Hola Juanito!"
     ;;
