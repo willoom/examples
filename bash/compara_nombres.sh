@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Introduce un nombre" nombre
+read -p "Introduce un nombre: " nombre
 
 if test "$nombre" == "Juan"
 then
