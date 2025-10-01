@@ -7,7 +7,10 @@ then
   echo "¡Hola Juanito!"
 elif test "$nombre" == "Pedro"
 then
-  echo "¡Hola Pedrito!"
+  echo "¡Qué bueno Pedrito!"
+elif test "$nombre" == "Mariano"
+then
+  echo "¡Cuánto tiempo, Marianín!" 
 else
   echo "No te conozco."
 fi
