@@ -20,7 +20,7 @@ echo %res%
 goto :EOF
 
 :MAIN
-set /P arg=Escribe dos numeros separados por un espacio
+set /P arg="Escribe dos numeros separados por un espacio: "
 echo %arg%
 
 echo su suma es:
